@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contact us to book a driving lesson.">
+    <meta name="keywords" content="contact us">
+    <title>Contact Us</title>
+    <link href="./resources/css/indexhf.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/contact.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="header-left">
+                <div class="logo">
+                   <a href="index.html"> <img src="resources/images/logo.png" alt="Driving Instructor Logo"></a>
+                </div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                   
+                    <li class="dropdown"><a href="areas.html">Areas Covered</a>
+                        
+                    </li>
+                    <li class="dropdown">About Us
+                        <div class="dropdown-content">
+                            <a href="caroleadi.html">Carole (ADI)</a>
+                          
+                            <a href="davidadi.html">David (ADI)</a>
+                            
+                        </div>
+                    </li>
+                    <a href="testimonials.html"><li class="dropdown">Testimonials
+                        
+                    </li></a>
+                    <a href="contact.html"><li class="dropdown">Contact Us
+                       
+                    </li></a>
+                    <a href="faqs.html"><li class="dropdown">FAQs
+                      
+                    </li></a>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <a href="contact.html"><p class="phonenumber">07828150432</p>
+                <p class="underphone">Teaching 7am - 6pm Mon-Fri</p>
+                <p class="underphone">Teaching 8am - 4pm Sat-Sun</p></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <section class="hero-section">
+        <img src="resources/images/main.png" class="wideimg" alt="Hero Image">
+    </section>
+    <div class="call">
+        <div class="question">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="contactbtn">
+            <a href="contact.html" class="btn">Book Your First Lesson today</a>
+        </div>
+    </div>
+    
+    <!-- Info Bar -->
+    <div class="info-bar">
+        <a href="testimonials.html"><p>100% 5 Star Reviews ⭐⭐⭐⭐⭐</p></a>
+    </div>
+
+    <div class="container">
+        <div class="title">Get in Contact Today!</div>
+        <div class="paragraph">
+            Give us a call or send a message to book a lesson, check availability, or learn more about our services. We're here to answer any questions and help you get started on your driving journey. Reach out – we’d be happy to assist!
+        </div>
+        <div class="contact-number">07828150432</div>
+        
+        <div class="social-media">
+            <p>You may also reach us on our social media:</p>
+            
+            <a href="https://www.facebook.com/carole.hurley.77" aria-label="Facebook" class="changea">   <div class="social-link">
+                <img src="resources/images/fb.png" alt="Facebook Icon">
+                <span>Carole Adi</span>
+            </div></a>
+            
+            <a href="https://www.instagram.com/drive_with_carole_/" aria-label="Instagram" class="changea"> <div class="social-link">
+                <img src="resources/images/insta.png" alt="Instagram Icon">
+                <span>drive_with_carole_</span>
+            </div></a>
+        </div>
+        
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3108.2814811279604!2d0.10547797661359075!3d51.399046771788875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ac657a5b868f%3A0xb2b7e06cc20df6ed!2sCurtismill%20Cl%2C%20Orpington!5e1!3m2!1sen!2suk!4v1731326318608!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+        <script>
+            // Inline JavaScript for FAQ accordion functionality
+            document.addEventListener('DOMContentLoaded', () => {
+                const faqQuestions = document.querySelectorAll('h2[style*="cursor: pointer"]');
+    
+                faqQuestions.forEach(question => {
+                    question.addEventListener('click', () => {
+                        const answer = question.nextElementSibling;
+                        const currentMaxHeight = answer.style.maxHeight;
+    
+                        // Toggle between showing and hiding the answer
+                        if (currentMaxHeight === '0px' || currentMaxHeight === '') {
+                            answer.style.maxHeight = answer.scrollHeight + 'px';
+                        } else {
+                            answer.style.maxHeight = '0px';
+                        }
+    
+                        // Change + to - when active
+                        question.querySelector('span').textContent = currentMaxHeight === '0px' || currentMaxHeight === '' ? '-' : '+';
+                    });
+                });
+            });
+        </script>
+    <!-- JavaScript for FAQ accordion functionality -->
+    <script src="resources\javascript\faq.js"></script>
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <div>
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="beginner.html">Beginner Lessons</a></li>
+                        <li><a href="mock.html">Mock Test</a></li>
+                        <li><a href="test.html">Practical Driving Test</a></li>
+                        <li><a href="motorway.html">Motorway Lessons</a></li>
+                        <li><a href="refresher.html">Refresher Lessons</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Areas Covered</h3>
+                    <ul>
+                        <li><a href="stmarycray.html">St Mary Cray</a></li>
+                        <li><a href="orpington.html">Orpington</a></li>
+                        <li><a href="sidcup.html">Sidcup</a></li>
+                        <li><a href="pettswood.html">Petts Wood</a></li>
+                        <li><a href="bromley.html">Bromley</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="caroleadi.html">Carole (ADI)</a></li>
+                        <li><a href="carolescar.html">Carole's Car</a></li>
+                        <li><a href="faqs.html">FAQs</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/carole.hurley.77" aria-label="Facebook" class="social-icon">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                </a>
+                <a href="https://www.instagram.com/drive_with_carole_/" aria-label="Instagram" class="social-icon">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+            </div>
+        </div>
+        </footer>
+        <div class="tag">@Drive with Carole - Website by <b>Lucy Hurley-Wareing</b></div>
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container {
+    max-width: 1600px;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+.title {
+    font-size: 2.8em;
+    color: #000000;
+    margin-bottom: 60px;
+    border-bottom: 4px solid #e50914;
+    display: inline;
+    margin-top: 50px;
+    font-weight: 600;
+    
+   
+}
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+
+.testimonial {
+    width: 22%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.testimonial img {
+    width: 300px; /* Set desired width */
+    height: 420px; /* Set desired height */
+    object-fit: cover; /* Crops the image to fit the container */
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.testimonial img:hover {
+    transform: scale(1.05); /* Slightly enlarges the image */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adds a shadow */
+}
+.description {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+}
+.cta {
+    font-size: 1.1em;
+    color: #e50914;
+    margin-top: 30px;
+}
+.cta a {
+    text-decoration: none;
+    color: #e50914;
+    font-weight: bold;
+}
+.changea{
+    color:#555;
+    text-decoration: none;
+    font-weight: bold;
+}
+@media (max-width: 480px) {
+    .testimonial {
+        width: 100%;
+    }
+}

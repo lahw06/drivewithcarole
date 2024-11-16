@@ -1,0 +1,326 @@
+.area-info {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+   
+   
+}
+h2{
+    font-size: 2em;
+}
+
+ .area-info h2 {
+        color: #333;
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 20px;
+       
+        padding-bottom: 10px;
+        border-bottom: 6px solid #e50914;
+        text-align: center;
+    }
+
+.intro {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.info-section {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width:1600px;
+    padding: 40px 0;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+
+.info-section h4{
+    font-size: 2.5em;
+}
+.features-section {
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.features-section p{
+    padding-bottom: 30px;
+    font-size: 1.25em;
+}
+.features-section h4{
+    padding-bottom: 20px;
+    font-size: 2.5em;
+    
+}
+.features-section ul{
+    padding-bottom: 50px;
+    font-size: 1.15em;
+}
+.features-section ul li{
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    text-align: left;
+    align-items: left;
+}
+.features-section ul li strong{
+    margin-bottom: 15px;
+    font-size: 1.15em;
+    text-align: left;
+    align-items: left;
+}
+
+.info-grid {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Even spacing */
+}
+
+h4 {
+    color: black; 
+    margin-bottom: 10px; 
+    display: inline-block; 
+    padding-bottom: 5px; 
+    font-size: 1.7em;
+}
+
+h4::after {
+    content: ""; 
+    display: block; 
+    height: 4px; 
+    background-color: #e50914; 
+    width: 100%; 
+    margin-top: 5px; 
+}
+
+
+.btnmain {
+    display: inline-block;
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+    font-size: 1.7em;
+    width:500px;
+    align-items: center;
+    text-align: center;
+}
+
+.btnmain:hover {
+    background-color: #bf0410;
+}
+
+.features-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.features-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.conclusion {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.changea{
+    font-weight: bold;
+    color:#333;
+   
+}
+
+.tips {
+    list-style: none;
+    padding: 0;
+    margin: 10px auto;
+    font-size: 1.2em !important;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.6;
+}
+
+.tips li {
+    /* Remove the width to allow items to size based on content */
+    text-align: center;
+    margin: 10px 0;
+    width: 100%; /* Optional: Ensures the li takes full width of the parent */
+    max-width: 800px; /* Adjust as needed for better appearance */
+}
+
+
+/* Remove bottom border on the last list item */
+.tips li:last-child {
+    border-bottom: none;
+}
+
+/* Emphasis styling for important points within list items */
+.tips li strong {
+    color: #e50914;
+    margin-bottom: 100px;
+    
+}
+
+/* Custom checkmark styling for bullet points */
+.tips li::before {
+    content: "✔";
+    color: #e50914;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.pricing-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 100px;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding-top: 5px;
+}
+
+.price-title {
+    font-size: 2.5em;
+    margin: 40px 0 30px 0;
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-bottom: 6px solid #e50914;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.upper-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+    background-color: #ffffff;
+    border-radius: 12px 12px 0 0;
+}
+
+.price-box {
+    flex: 1;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 0px 20px;
+  
+}
+
+.price-box h3 {
+    font-size: 2.2em;
+    margin-bottom: 25px;
+    color: #e50914;
+    font-weight: 800;
+}
+
+.price-box p {
+    font-size: 1.8em;
+    color: #000000;
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+.lower-section {
+    text-align: left;
+    padding: 20px;
+    background-color: #e50914;
+padding-top: 40px;
+    border-radius: 0 0 12px 12px;
+    color: #ffffff;
+}
+
+.lower-section h4 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.lower-section p {
+    font-size: 1em;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .info-grid {
+        flex-direction: column; /* Stack elements on smaller screens */
+    }
+
+    .btn {
+        width: 100%; /* Full-width buttons on small screens */
+    }
+
+.info-section {
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    color: #000000;
+    box-shadow: none;
+    background: #fff;
+    align-items: center;
+    margin-right: 10px;
+    padding-right: 18px;
+}
+.text-content {
+    max-width: 90vw !important;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.map-container {
+    width: 86vw;
+    padding-right: 20px;
+    height:auto;
+    
+}
+.btnmain{
+    width:86vw;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.upper-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.price-box {
+    width: 90%;
+    max-width: 400px;
+}
+.pricing-container {
+    width:90%;
+}
+}

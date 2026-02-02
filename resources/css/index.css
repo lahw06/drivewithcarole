@@ -757,7 +757,7 @@ footer {
 @media (max-width: 500px) {
     /* Logo-Only Header for 400px Width - No Scrolling */
 *{
-    overflow-x:clip;
+
 }
 
 

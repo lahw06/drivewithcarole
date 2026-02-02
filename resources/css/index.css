@@ -755,11 +755,9 @@ footer {
 /* Existing CSS at the top remains unchanged */
 
 @media (max-width: 500px) {
-    /* Logo-Only Header for 400px Width - No Scrolling */
-*{
+
 
 }
-
 
 
 body .hero-section .question {

@@ -5,7 +5,7 @@
       overflow: hidden;
     }
     .cs-button-solid .under-number {
-        color:#d9c6a6 !important;
+        color:#ffffff !important;
         font-size: 2rem !important;
         margin-top: 0 !important;
     }
@@ -13,7 +13,7 @@
       width: 100%;
       box-sizing: border-box;
       padding: 0.75rem 1rem;
-      background-color: #fff;
+      background-color: #020000;
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       position: sticky;
       z-index: 10000;

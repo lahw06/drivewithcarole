@@ -440,7 +440,7 @@
     @media only screen and (max-width: 84rem) {
         #cs-navigation .cs-button-solid {
             font-size: 1.6rem !important;
-            padding-top:30px;
+            padding-top:0px;
         }
 
         #cs-navigation .cs-button-solid {

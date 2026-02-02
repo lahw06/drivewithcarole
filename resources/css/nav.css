@@ -5,14 +5,14 @@
       overflow: hidden;
     }
     .cs-button-solid .under-number {
-        color:#ffffff !important;
-        font-size: 2rem !important;
+        color:#ffffff ;
+        font-size: 2rem ;
         margin-top: 0 !important;
     }
     #cs-navigation {
       width: 100%;
       box-sizing: border-box;
-      padding: 0.75rem 1rem;
+      padding: 1.25rem 1rem;
       background-color: #000000;
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       position: sticky;
@@ -398,7 +398,7 @@
     }
     @media only screen and (max-width: 75rem) {
     #cs-navigation .cs-ul {
-      padding: 0 40px 0 0;
+      padding: 0 30px 0 0;
       }
     }
     @media only screen and (max-width: 70rem) {

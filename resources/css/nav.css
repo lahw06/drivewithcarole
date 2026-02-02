@@ -13,7 +13,7 @@
       width: 100%;
       box-sizing: border-box;
       padding: 0.75rem 1rem;
-      background-color: #020000;
+      background-color: #000000;
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       position: sticky;
       z-index: 10000;
@@ -22,7 +22,7 @@
       height: 100%;
     }
     #cs-expanded .cs-ul{
-        background-color: #fff !important;
+        background-color: #000000 !important;
     }
     #cs-navigation:before {
       content: "";
@@ -146,7 +146,7 @@
       width: 100%;
       height: 100%;
       padding-bottom: 2.4em;
-      background-color: #fff;
+      background-color: #000000;
       box-shadow: inset rgba(0, 0, 0, 0.2) 0px 8px 24px;
       opacity: 0;
       position: absolute;
@@ -327,7 +327,7 @@
       line-height: 1.5em;
       text-decoration: none;
       margin: 0;
-      color: #005484;
+      color: #ffffff;
       display: block;
       height: 100%;
       position: relative;
@@ -352,7 +352,7 @@
       transition: width 0.3s;
     }
     #cs-navigation .cs-li-link:hover{
-        color:#001a29;
+        color:#d1d1d1;
         height: 100%
     }
     #cs-navigation .cs-button-solid {
@@ -367,7 +367,7 @@
       margin: 0;
       box-sizing: border-box;
       padding: 1.6rem 1.2rem;
-      color: #005484;
+      color: #ffffff;
       background-color: var(--primary);
       border-radius: 0.25rem;
       display: inline-block;
@@ -376,7 +376,7 @@
       padding-left:100px;
     }
     #cs-navigation .cs-button-solid:hover {
-        color:#001a29;
+        color:#c5c5c5;
         height: 70%
     }
 

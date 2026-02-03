@@ -499,6 +499,7 @@
   padding: 0.6rem 1.2rem;
   color: #fff;
   text-decoration: none;
+  font-size: clamp(0.7rem, 0.8rem + 0.2vw, 1.1rem);
   white-space: nowrap;
 }
 

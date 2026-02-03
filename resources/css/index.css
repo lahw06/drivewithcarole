@@ -13,22 +13,7 @@ body {
 
 
 /* Hero Section */
-.hero-section {
-    margin-top: 140px;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
-.wideimg {
-    width: 100vw;
-    height: 600px;
-    object-fit: cover;
-    opacity: 1;
-    overflow: hidden;/* Full opacity */
-}
 
 /* Call Section */
 .call {
@@ -88,14 +73,7 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .hero-section {
-        margin-top: 80px;
-        height: 400px;
-    }
 
-    .wideimg {
-        height: 400px;
-    }
 
     .question h1 {
         font-size: 2em;
@@ -669,7 +647,7 @@ a {
 
 
 
-body .hero-section .question {
+body .question {
     position: absolute !important;
     top: 40% !important;
     left: 50% !important;
@@ -682,7 +660,7 @@ body .hero-section .question {
     width:100%;
 }
 
-body .hero-section .contactbtn {
+body  .contactbtn {
     position: absolute !important;
     top: 55% !important;
     left: 50% !important;

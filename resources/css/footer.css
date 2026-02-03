@@ -95,6 +95,7 @@ iframe {
     }
     .contact-us{
         line-height: 1.8em !important;
+        font-size: clamp(0.9em, 0.8em + 0.2vw, 1.1em);
     }
 
     .footer-bottom {

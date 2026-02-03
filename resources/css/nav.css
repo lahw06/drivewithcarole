@@ -408,7 +408,7 @@
     }
     @media only screen and (max-width: 65.625rem) {
     #cs-navigation .cs-ul {
-      padding: 0;
+      padding: 0px;
       }
     }
   
@@ -417,9 +417,7 @@
         #cs-navigation .cs-button-solid {
             font-size: 1.5rem;
         }
-        #cs-navigation .under-number {
 
-        }
     }
     @media only screen and (max-width: 30rem) {
         #cs-navigation .cs-button-solid {

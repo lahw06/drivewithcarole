@@ -11,7 +11,7 @@
 .contact-us,
 .quick-links {
     flex: 1.2;
-    margin: 0 20px;
+    margin: 0 0px;
     line-height: 1.6em;
 }
 
@@ -34,13 +34,20 @@ iframe {
     padding: 0;
     font-size: clamp(0.9em, 0.8em + 0.2vw, 1.1em);
 }
-    
+.contact-us p{
+    font-size: clamp(0.9em, 0.8em + 0.2vw, 1.1em);
+    line-height: 1.8em;
+}    
 
 .quick-links ul li {
     margin: 5px 0;
     font-size: clamp(0.9em, 0.8em + 0.2vw, 1.1em);
 }
 
+.quick-links ul li {
+    margin: 5px 0;
+    font-size: clamp(0.9em, 0.8em + 0.2vw, 1.1em);
+}
 .quick-links ul li a {
     text-decoration: none;
     color: #fff;

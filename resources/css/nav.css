@@ -524,7 +524,7 @@
 .cs-li.dropdown2 .dropdown-menu2 {
   position: absolute;
   top: 70%;
-  left: 50%;
+  left: 55%;
   transform: translateX(-50%);
   min-width: 10rem;
   list-style: none;

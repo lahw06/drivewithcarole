@@ -51,6 +51,9 @@ iframe {
     text-decoration: none;
     color: #e7e7e7;
 }
+.contact-us{
+        line-height: 2.6em !important;
+}
 
 .contact-us a {
     text-decoration: none;
@@ -82,6 +85,9 @@ iframe {
         padding: 15px;
         width: 100%;
         box-sizing: border-box;
+    }
+    .contact-us{
+        line-height: 1.6em !important;
     }
 
     .footer-bottom {

@@ -510,6 +510,11 @@
 .cs-ul-wrapper {
   overflow: visible;
 }
+@media (max-width: 93.75rem) {
+  .cs-li.dropdown .dropdown-menu {
+    left: 90%;
+  }
+}
 
 
 .cs-li.dropdown2 {
@@ -519,7 +524,7 @@
 .cs-li.dropdown2 .dropdown-menu2 {
   position: absolute;
   top: 70%;
-  left: 55%;
+  left: 50%;
   transform: translateX(-50%);
   min-width: 10rem;
   list-style: none;
@@ -547,14 +552,17 @@
   color: #fff;
   text-decoration: none;
   white-space: nowrap;
+  font-size: clamp(0.7rem, 0.8rem + 0.2vw, 1.1rem);
 }
 
 .cs-li.dropdown2 .dropdown-menu2 a:hover {
   background: rgba(255, 255, 255, 0.12);
 }
 
-.cs-ul-wrapper {
-  overflow: visible;
+@media (max-width: 93.75rem) {
+  .cs-li.dropdown2 .dropdown-menu2 {
+    left: 60%;
+  }
 }
 
 

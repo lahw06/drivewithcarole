@@ -72,7 +72,7 @@ body {
 
 
 .info-section {
-    max-width: 1400px;
+    width: min(92%, 87.5rem);
     margin: 20px auto;
     padding: 50px;
     background-color: #f8f8f8;

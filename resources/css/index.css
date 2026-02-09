@@ -649,14 +649,10 @@ a {
 
 body .question {
     position: absolute !important;
-    top: 40% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
     font-size: 1.5em !important;
     font-weight: 300 !important;
     text-align: center !important;
     margin-top: 70px;
-    margin-bottom: 90px !important;
     width:100%;
 }
 

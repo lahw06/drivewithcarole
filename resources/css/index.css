@@ -18,7 +18,7 @@ body {
 /* Call Section */
 .call {
     background-color: #000; /* Black background */
-    padding: 40px 20px;
+    padding: 80px 20px;
     text-align: center;
 }
 
@@ -646,7 +646,6 @@ a {
 
 
 body .question {
-    position: absolute !important;
     font-size: 1.5em !important;
     font-weight: 300 !important;
     text-align: center !important;

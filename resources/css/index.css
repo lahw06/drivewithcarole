@@ -33,8 +33,6 @@ body {
     margin-top: 20px;
     border-radius: 8px;
     font-size: 1.5em;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4), 
-                0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
 .contactbtn .btn {
@@ -657,10 +655,6 @@ body .question {
 }
 
 body  .contactbtn {
-    position: absolute !important;
-    top: 55% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
     font-size: 1.5em !important;
     font-weight: bold !important;
    padding:0;

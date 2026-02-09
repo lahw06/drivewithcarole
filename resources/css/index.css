@@ -18,14 +18,13 @@ body {
 /* Call Section */
 .call {
     background-color: #000; /* Black background */
-    padding: 80px 20px;
+    padding: 40px 20px 60px 20px;
     text-align: center;
 }
 
 .question h1 {
     color: #fff;
     font-size: 3em;
-    margin-bottom: 40px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -651,6 +650,7 @@ body .question {
     text-align: center !important;
     margin-top: 70px;
     width:100%;
+    margin-bottom: 40px;
 }
 
 body  .contactbtn {

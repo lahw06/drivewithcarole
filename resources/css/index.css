@@ -24,14 +24,14 @@ body {
 
 .question h1 {
     color: #fff;
-    font-size: 3em;
+    font-size: clamp(2.6em, 2.4em + 0.6vw, 3.2em);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .contactbtn {
     margin-top: 20px;
     border-radius: 8px;
-    font-size: 1.5em;
+    font-size: clamp(1.3em, 1.2em + 0.3vw, 1.7em);
 }
 
 .contactbtn .btn {
@@ -39,7 +39,7 @@ body {
     color: white;
     padding: 15px 30px;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: clamp(1.3em, 1.2em + 0.3vw, 1.7em);
     border-radius: 8px;
     transition: background-color 0.3s ease;
 }
@@ -54,7 +54,7 @@ body {
     padding: 20px;
     text-align: center;
     color: #fff; /* White text */
-    font-size: 1.5em;
+    font-size: clamp(1.3em, 1.2em + 0.3vw, 1.7em);
     font-weight: bold;
     text-decoration: none !important;
 }
@@ -68,23 +68,7 @@ body {
     text-decoration: underline;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
 
-
-    .question h1 {
-        font-size: 2em;
-    }
-
-    .contactbtn .btn {
-        font-size: 1.2em;
-        padding: 10px 20px;
-    }
-
-    .info-bar {
-        font-size: 1.2em;
-    }
-}
 
 
 .info-section {

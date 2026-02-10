@@ -98,7 +98,6 @@
         transition: fill 0.3s;
     }
     #services-296 .cs-h3 {
-        /* 20px - 25px */
         font-size: clamp(1.25rem, 2vw, 1.5625rem);
         line-height: 1.2em;
         margin: 0;
@@ -115,11 +114,9 @@
         transition: color 0.3s;
     }
 }
-/* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
     #services-296 .cs-card-group {
         justify-content: space-between;
-        /* makes sure every box "stretches" to be the same height as the tallest box */
         align-items: stretch;
         flex-direction: row;
         flex-wrap: wrap;
@@ -128,7 +125,6 @@
         width: 48.6%;
     }
 }
-/* Desktop - 1300px */
 @media only screen and (min-width: 81.25rem) {
     #services-296 .cs-container {
         max-width: 90rem;
@@ -137,7 +133,6 @@
         justify-content: center;
     }
     #services-296 .cs-item {
-        /* we do this so it's stackable. You can add new any number of reviews you want and they will stack and center in the middle. We dont use grid because if you have an odd number of reviews, they don't stay centered.  They align with their grid lines. If you want 4 reviews in a row, lower the width under 22.5vw or 23% to get the desired sizes fit 4 in a row and then stack when you add more */
-        width: clamp(23.84%, 22.5vw, 23.95%);
+
     }
 }

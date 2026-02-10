@@ -60,7 +60,7 @@
     #services-296 .cs-item:hover .cs-icon {
         /* turns it white */
         filter: grayscale(1) brightness(1000%);
-        filter: invert(1);
+
     }
     #services-296 .cs-item:hover .cs-h3,
     #services-296 .cs-item:hover .cs-item-text {
@@ -96,7 +96,7 @@
         height: 3rem;
         margin-bottom: 1.5rem;
         display: block;
-        filter: invert(1);
+
     }
     #services-296 .cs-icon path {
         transition: fill 0.3s;

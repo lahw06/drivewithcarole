@@ -74,7 +74,7 @@ body {
 .info-section {
     width: min(92%, 87.5rem);
     margin: 20px auto;
-    padding: 50px;
+    padding: 30px 20px;
     background-color: #f8f8f8;
     border-radius: 8px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);

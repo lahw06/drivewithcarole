@@ -252,7 +252,16 @@ body {
 .traffic-light-and-text{
   flex-wrap: nowrap;
 }
+.stage1 p, .stage2 p, .stagefinal p {
+  font-size: clamp(0.8em, 1.1em + 0.2vw, 2em);
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
   
+.stage1 h2 {
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
  }
 
 .service-container {

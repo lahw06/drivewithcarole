@@ -674,9 +674,11 @@ body  .contactbtn {
     margin-bottom:80px;
     margin-left:18px;
 }
-.about-us-main .grid-row,
+.about-us-main .grid-row{
+    flex-direction: row;
+}
 .about-us-main .grid-row.reverse {
-    flex-direction: column;
+    flex-direction: row-reverse;
 }
 
 .about-us-main .image,

@@ -2,7 +2,7 @@
   .cs-title {
     color: #000;
     margin-bottom: 15px;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #e50914;
     font-size: clamp(2em, 2em + 0.2vw, 2.6em);
   }
    .cs-text {
@@ -11,8 +11,15 @@
     line-height: 1.4;
   } 
 strong{
-    color:red;
+    color: #e50914;
 }  
+li{
+    font-size: 1.05em;
+    color: #444;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
     #RPsbs-1445,
   #RPsbsr-1445 {
     padding: var(--sectionPadding);

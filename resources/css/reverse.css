@@ -10,10 +10,10 @@
     font-size: clamp(0.8em, 1em + 0.2vw, 1.6em);
     line-height: 1.4;
   } 
-strong{
+#RPsbs-1445 strong{
     color: #e50914;
 }  
-li{
+#RPsbs-1445 li{
     font-size: 1.05em;
     color: #444;
     padding: 10px 0;

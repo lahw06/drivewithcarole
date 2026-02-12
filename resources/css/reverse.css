@@ -10,10 +10,10 @@
     font-size: clamp(0.8em, 1em + 0.2vw, 1.6em);
     line-height: 1.4;
   } 
-#RPsbs-1445 strong{
+#RPsbs-1445 strong, #RPsbsr-1445 strong{
     color: #e50914;
 }  
-#RPsbs-1445 li{
+#RPsbs-1445 li, #RPsbsr-1445 li{
     font-size: 1.05em;
     color: #444;
     padding: 10px 0;
@@ -21,13 +21,13 @@
     content: "✔";
 }
 
-#RPsbs-1445 ul {
+#RPsbs-1445 ul, #RPsbsr-1445 ul {
     list-style-type: none;
     padding: 0;
     margin-top: 10px;
     padding-left: 40px; 
 }
-#RPsbs-1445 ul li::before {
+#RPsbs-1445 ul li::before, #RPsbsr-1445 ul li::before {
     content: "✔";
     color: #e50914;
     margin-right: 10px;

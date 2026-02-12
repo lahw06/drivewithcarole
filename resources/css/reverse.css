@@ -1,5 +1,10 @@
 @media only screen and (min-width: 0rem) {
-  #RPsbs-1445,
+  .cs-title {
+    color: red;
+  }
+  
+  
+    #RPsbs-1445,
   #RPsbsr-1445 {
     padding: var(--sectionPadding);
     overflow: hidden;

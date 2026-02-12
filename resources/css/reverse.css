@@ -20,6 +20,12 @@
     border-bottom: 1px solid #ddd;
     content: "✔";
 }
+#RPsbs-1445 ul li::before {
+    content: "✔";
+    color: #e50914;
+    margin-right: 10px;
+    font-weight: bold;
+}
 
     #RPsbs-1445,
   #RPsbsr-1445 {

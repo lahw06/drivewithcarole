@@ -249,8 +249,16 @@
 @media only screen and (min-width: 75rem) {
   #RPsbs-1445 .cs-content, #RPsbsr-1445 .cs-content{
     text-align: center;
+    padding-bottom: 80px;
   }
   #RPsbs-1445 li, #RPsbsr-1445 li{
-    text-align: left;
+    border-bottom: none;
+    font-size: 1.2rem;
+  }
+  .cs-text {
+    color: #555;
+    font-size: clamp(0.8em, 1em + 0.1vw, 1.6em);
+    line-height: 1.6;
+    padding-bottom: 20px;
   }
 }

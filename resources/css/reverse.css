@@ -282,11 +282,11 @@
   }
   #RPsbs-1445 .cs-content,
   #RPsbsr-1445 .cs-content {
-    width: 90%;
+    width: 100%;
     padding: 2.5rem 0;
   }
     #RPsbsr-1445 .cs-container{
-    width:90%;
+    width:100%;
     flex-direction: column-reverse;
     margin: 20px auto;
   }
@@ -302,5 +302,18 @@
   }
   #RPsbs-1445 .cs-title{
     text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 37.5rem) {
+  #RPsbs-1445 .cs-content,
+  #RPsbsr-1445 .cs-content {
+    width: 90%;
+    padding: 2.5rem 0;
+  }
+    #RPsbsr-1445 .cs-container{
+    width:90%;
+    flex-direction: column-reverse;
+    margin: 20px auto;
   }
 }

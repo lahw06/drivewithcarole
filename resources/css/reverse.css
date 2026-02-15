@@ -246,7 +246,7 @@
     padding: 2.5rem 0;
   }
 }
-@media only screen and (min-width: 75rem) {
+@media only screen and (max-width: 75rem) {
   #RPsbs-1445 .cs-content, #RPsbsr-1445 .cs-content{
     text-align: center;
     padding-bottom: 80px;

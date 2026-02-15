@@ -261,4 +261,7 @@
     line-height: 1.6;
     padding-bottom: 20px;
   }
+  .cs-title{
+    text-align: center !important;
+  }
 }

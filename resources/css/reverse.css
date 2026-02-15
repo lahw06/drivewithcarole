@@ -282,6 +282,7 @@
   #RPsbs-1445 .cs-content,
   #RPsbsr-1445 .cs-content {
     width: 100%;
+    align-items: center;
   }
     #RPsbsr-1445 .cs-container{
     width:100%;

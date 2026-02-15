@@ -254,6 +254,7 @@
   #RPsbs-1445 .cs-container, #RPsbsr-1445 .cs-container{
     width:100%;
     flex-direction: column;
+    margin: 20px auto;
   }
   #RPsbs-1445 li, #RPsbsr-1445 li{
     border-bottom: none;

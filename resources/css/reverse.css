@@ -314,6 +314,11 @@
     margin: 20px auto;
     flex-direction: column-reverse;
   }
+    #RPsbs-1445 .cs-container{
+    width:90%;
+    margin: 20px auto;
+    flex-direction: column;
+  }
   .cs-picture img{
     width:90%;
   }

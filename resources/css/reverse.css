@@ -243,3 +243,10 @@
     padding: 2.5rem 0;
   }
 }
+@media only screen and (min-width: 81.25rem) {
+  #RPsbs-1445 .cs-content,
+  #RPsbsr-1445 .cs-content {
+    width: 100%;
+    padding: 2.5rem 0;
+  }
+}

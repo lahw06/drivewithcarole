@@ -251,9 +251,14 @@
     text-align: center;
     padding-bottom: 80px;
   }
-  #RPsbs-1445 .cs-container, #RPsbsr-1445 .cs-container{
+  #RPsbs-1445 .cs-container {
     width:100%;
     flex-direction: column;
+    margin: 20px auto;
+  }
+  #RPsbsr-1445 .cs-container{
+    width:100%;
+    flex-direction: column-reverse;
     margin: 20px auto;
   }
   #RPsbs-1445 li, #RPsbsr-1445 li{

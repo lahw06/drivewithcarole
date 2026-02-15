@@ -312,7 +312,7 @@
     #RPsbsr-1445 .cs-container{
     width:90%;
     margin: 20px auto;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
     #RPsbs-1445 .cs-container{
     width:90%;

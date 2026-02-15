@@ -3,7 +3,7 @@
     color: #000;
     margin-bottom: 15px;
     border-bottom: 3px solid #e50914;
-    font-size: clamp(2em, 2em + 0.2vw, 2.6em);
+    font-size: clamp(1.6em, 1.8em + 0.2vw, 2.6em);
   }
    .cs-text {
     color: #555;

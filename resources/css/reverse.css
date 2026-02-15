@@ -250,4 +250,7 @@
   #RPsbs-1445 .cs-content, #RPsbsr-1445 .cs-content{
     text-align: center;
   }
+  #RPsbs-1445 li, #RPsbsr-1445 li{
+    text-align: left;
+  }
 }

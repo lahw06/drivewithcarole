@@ -7,7 +7,7 @@
   }
    .cs-text {
     color: #555;
-    font-size: clamp(0.8em, 1em + 0.2vw, 1.6em);
+    font-size: clamp(0.8em, 0.9em + 0.1vw, 1.6em);
     line-height: 1.4;
   } 
 #RPsbs-1445 strong, #RPsbsr-1445 strong{
@@ -235,4 +235,11 @@
     order: 2;
   }
 }
-                                
+
+@media only screen and (min-width: 97rem) {
+  #RPsbs-1445 .cs-content,
+  #RPsbsr-1445 .cs-content {
+    width: 80%;
+    padding: 2.5rem 0;
+  }
+}

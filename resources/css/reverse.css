@@ -282,7 +282,6 @@
   #RPsbs-1445 .cs-content,
   #RPsbsr-1445 .cs-content {
     width: 100%;
-    padding: 2.5rem 0;
   }
     #RPsbsr-1445 .cs-container{
     width:100%;
@@ -300,6 +299,9 @@
   }
   #RPsbs-1445 .cs-title{
     text-align: center !important;
+  }
+  .cs-picture img{
+    margin-top: 20px;
   }
 }
 

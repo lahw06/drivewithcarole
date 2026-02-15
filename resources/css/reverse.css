@@ -287,7 +287,6 @@
   }
     #RPsbsr-1445 .cs-container{
     width:100%;
-    flex-direction: column-reverse;
     margin: 20px auto;
   }
   #RPsbs-1445 li, #RPsbsr-1445 li{
@@ -313,7 +312,6 @@
   }
     #RPsbsr-1445 .cs-container{
     width:90%;
-    flex-direction: column-reverse;
     margin: 20px auto;
   }
 }

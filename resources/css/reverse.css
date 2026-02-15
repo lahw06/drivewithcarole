@@ -208,7 +208,6 @@
   }
   #RPsbs-1445 .cs-content,
   #RPsbsr-1445 .cs-content {
-    width: 60%;
     padding: 2.5rem 0;
   }
   #RPsbs-1445 .cs-picture,
@@ -248,7 +247,7 @@
 }
 @media only screen and (max-width: 75rem) {
   #RPsbs-1445 .cs-content, #RPsbsr-1445 .cs-content{
-    text-align: center;
+    text-align: center !important;
     padding-bottom: 80px;
   }
   #RPsbs-1445 .cs-container {
@@ -277,9 +276,31 @@
 }
 
 @media only screen and (max-width: 64rem) {
+  #RPsbs-1445 .cs-content, #RPsbsr-1445 .cs-content{
+    text-align: center !important;
+    padding-bottom: 80px;
+  }
   #RPsbs-1445 .cs-content,
   #RPsbsr-1445 .cs-content {
     width: 90%;
     padding: 2.5rem 0;
+  }
+    #RPsbsr-1445 .cs-container{
+    width:90%;
+    flex-direction: column-reverse;
+    margin: 20px auto;
+  }
+  #RPsbs-1445 li, #RPsbsr-1445 li{
+    border-bottom: none;
+    font-size: 1.2rem;
+  }
+  .cs-text {
+    color: #555;
+    font-size: clamp(0.8em, 1em + 0.1vw, 1.6em);
+    line-height: 1.6;
+    padding-bottom: 20px;
+  }
+  #RPsbs-1445 .cs-title{
+    text-align: center !important;
   }
 }

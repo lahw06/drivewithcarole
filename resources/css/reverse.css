@@ -248,6 +248,7 @@
   #RPsbs-1445 .cs-content, #RPsbsr-1445 .cs-content{
     text-align: center !important;
     padding-bottom: 80px;
+    align-items: center;
   }
   #RPsbs-1445 .cs-container {
     width:100%;
@@ -311,6 +312,7 @@
   #RPsbsr-1445 .cs-content {
     width: 90% !important;
     padding: 2.5rem 0;
+    align-items: center;
   }
     #RPsbsr-1445 .cs-container{
     width:90%;

@@ -244,7 +244,7 @@
     padding: 2.5rem 0;
   }
 }
-@media only screen and (max-width: 75rem) {
+@media (min-width:64rem) and (max-width:75rem) {
   #RPsbs-1445 .cs-content, #RPsbsr-1445 .cs-content{
     text-align: center !important;
     padding-bottom: 80px;
@@ -274,7 +274,7 @@
   }
 }
 
-@media only screen and (max-width: 64rem) {
+@media (min-width:37.5rem) and (max-width:64rem) {
   #RPsbs-1445 .cs-content, #RPsbsr-1445 .cs-content{
     text-align: center !important;
     padding-bottom: 80px;

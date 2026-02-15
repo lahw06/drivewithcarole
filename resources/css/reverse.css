@@ -251,6 +251,9 @@
     text-align: center;
     padding-bottom: 80px;
   }
+  #RPsbs-1445 .cs-container, #RPsbsr-1445 .cs-container{
+    width:90%;
+  }
   #RPsbs-1445 li, #RPsbsr-1445 li{
     border-bottom: none;
     font-size: 1.2rem;

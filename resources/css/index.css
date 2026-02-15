@@ -355,6 +355,7 @@ button.servicebtn {
 }
 a {
     color: white;
+    text-decoration: none;
 }
 
 
@@ -567,7 +568,7 @@ a {
 
 .testimonials-section h2 {
     color: #333;
-    font-size: 2em;
+    font-size: clamp(2em, 1.9em + 0.4vw, 2.4em);
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 10px;
@@ -577,7 +578,7 @@ a {
 
 .testimonials-section p {
     color: #555;
-    font-size: 1.15em;
+    font-size: clamp(1.1em, 1em + 0.2vw, 1.3em);
     line-height: 1.8;
     max-width: 1100px;
     margin: 20px auto 40px;
@@ -702,7 +703,11 @@ body  .contactbtn {
 
 
 
-  
+@media only screen and (max-width: 87.5rem) {
+    .testimonials-section{
+        border-radius: 0;
+    }
+}
 
 
 

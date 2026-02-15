@@ -486,7 +486,6 @@ a {
     margin: 50px auto;
     padding: 50px;
     background-color: #f8f8f8;
-    border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
     font-family: Arial, sans-serif;
     color: #333;
@@ -497,9 +496,8 @@ a {
 
 .area-section h2 {
     color: #333;
-    font-size: 2.2em;
+    font-size: clamp(2em, 1.9em + 0.4vw, 2.4em);
     font-weight: bold;
-    
     border-bottom: 4px solid #e50914;
     display: inline-block;
     padding-bottom: 10px;
@@ -507,7 +505,7 @@ a {
 
 .area-section p {
     color: #555;
-    font-size: 1.2em;
+    font-size: clamp(1.1em, 1em + 0.2vw, 1.3em);
     line-height: 1.7;
     margin: 15px auto 30px;
     max-width: 1200px;
@@ -523,7 +521,7 @@ a {
 }
 
 .area-section ul li {
-    font-size: 1.1em;
+    font-size: clamp(1em, 0.95em + 0.15vw, 1.2em);
 }
 
 .area-section ul li a {

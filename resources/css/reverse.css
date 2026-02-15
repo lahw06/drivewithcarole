@@ -307,7 +307,7 @@
   }
 }
 
-@media (min-width:0rem) and (max-width: 37.5rem) {
+@media (min-width:1rem) and (max-width: 37.5rem) {
   #RPsbs-1445 .cs-content,
   #RPsbsr-1445 .cs-content {
     width: 90% !important;

@@ -59,14 +59,8 @@
     flex-direction: column;
     align-items: flex-start;
   }
-  #RPsbs-1445 .cs-text,
-  #RPsbsr-1445 .cs-text {
-    margin-bottom: 1rem;
-  }
-  #RPsbs-1445 .cs-text:last-of-type,
-  #RPsbsr-1445 .cs-text:last-of-type {
-    margin-bottom: 2rem;
-  }
+
+
   #RPsbs-1445 .cs-card-group,
   #RPsbsr-1445 .cs-card-group {
     width: 100%;
@@ -210,7 +204,7 @@
     align-items: center;
     position: relative;
     background-color: #fff;
-    padding: 0 20px;
+    padding: 0 40px;
   }
   #RPsbs-1445 .cs-content,
   #RPsbsr-1445 .cs-content {

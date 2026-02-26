@@ -30,7 +30,7 @@ h2{
     text-align: center;
     display: flex;
     justify-content: space-around;
-    width:1600px;
+    max-width:1600px;
     padding: 40px 0;
     margin-bottom: 150px;
     margin-top: 50px;

@@ -240,6 +240,7 @@ a{
     font-size: 1.15em;
     line-height: 1.8;
     margin: 20px auto;
+    margin-top: 0px;
     max-width: 1100px;
     text-align: center;
 }

@@ -12,43 +12,57 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <div class="header-container">
-            <div class="header-left">
-                <div class="logo">
-                   <a href="index"> <img src="resources/images/logo.png" alt="Driving Instructor Logo"></a>
+    <header id="cs-navigation">
+        <div class="cs-container">
+          
+            <a href="/" class="cs-logo" aria-label="back to home">
+                <img src="resources/images/logo.png" alt="logo" width="100" height="29" aria-hidden="true" decoding="async">
+            </a>
+         
+            <nav class="cs-nav" role="navigation">
+           
+             
+
+ <div class="cs-ul-wrapper">
+                    <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                        <li class="cs-li dropdown2">
+                            <a href="areas" style="font-size: clamp(0.875rem, 1vw, 1.2rem); line-height: 1.5em; text-decoration: none;">Areas Covered</a>
+                             <ul class="dropdown-menu2">
+                                <li><a href="/bromley">Bromley</a></li>
+                                <li><a href="/croydon">Croydon</a></li>
+                            </ul>
+                        </li>
+                        <li class="cs-li dropdown">
+                            <a href="caroleadi" style="font-size: clamp(0.875rem, 1vw, 1.2rem); line-height: 1.5em; text-decoration: none;">About Us</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/caroleadi">Carole ADI</a></li>
+                                <li><a href="/davidadi">David ADI</a></li>
+                                <li><a href="/hargadi">Harg ADI</a></li>
+                            </ul>
+                        </li>
+                        <li class="cs-li">
+                            <a href="testimonials" class="cs-li-link">
+                                Testimonials
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="contact" class="cs-li-link">
+                                Contact Us 
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="faqs" class="cs-li-link">
+                                FAQs
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <nav class="nav-bar">
-                <ul>
-                 
-                    <li class="dropdown"><a href="areas">Areas Covered</a>
-                        
-                    </li>
-                    <li class="dropdown">About Us
-                        <div class="dropdown-content">
-                            <a href="caroleadi">Carole (ADI)</a>
-                        
-                            <a href="davidadi">David (ADI)</a>
-                    
-                        </div>
-                    </li>
-                    <a href="testimonials"><li class="dropdown">Testimonials
-                        
-                    </li></a>
-                    <a href="contact"><li class="dropdown">Contact Us
-                       
-                    </li></a>
-                    <a href="faqs"><li class="dropdown">FAQs
-                      
-                    </li></a>
-                </ul>
             </nav>
-            <div class="contact-info">
-                <a href="contact"><p class="phonenumber">07828150432</p>
-                <p class="underphone">Teaching 7am - 6pm Mon-Fri</p>
-                <p class="underphone">Teaching 8am - 4pm Sat-Sun</p></a>
-            </div>
+
+    
+         <a href="contact" class="cs-button-solid cs-nav-button">07828150432<br>
+            <p class="under-number" style="color:#ff0000; font-size: clamp(0.8rem, 0.9rem, 1.2rem); line-height: 1.2rem; margin-top: 0px; height:5px !important; margin-bottom: 0px;">Teaching 7am - 6pm Mon-Fri <br> Teaching 8am - 4pm Sat-Sun</p></a>
+          
         </div>
     </header>
 

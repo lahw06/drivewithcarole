@@ -12,7 +12,7 @@ h2{
 
  .area-info h2 {
         color: #333;
-        font-size: 3em;
+        font-size: clamp(1.8em, 2.5vw, 3em);
         font-weight: bold;
         margin-bottom: 20px;
        
@@ -149,7 +149,7 @@ h4::after {
     list-style: none;
     padding: 0;
     margin: 10px auto;
-    font-size: 1.2em !important;
+    font-size: clamp(1.05em, 0.95em + 0.4vw, 1.2em) !important;
     width: 80%;
     text-align: center;
     display: flex;

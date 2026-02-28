@@ -69,7 +69,7 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
-@media (max-width: 480px) {
+@media (max-width: 1200px) {
     .testimonial {
         width: 100%;
     }

@@ -102,7 +102,7 @@ iframe{
     margin-bottom: 100px;
 }
 .info-section h4{
-    font-size: 2.5em;
+    font-size: clamp(1.8em, 1.3em + 2vw, 2.5em);
 }
 .features-section {
     margin: 0 auto;
@@ -316,9 +316,8 @@ h4{
 }
 @media (max-width: 1300px) {
 .map-container {
-    width: 40%;
+    width: 108%;
     height: auto;
-    width: 400px;
     padding-top: 85px;
 }
 }
@@ -337,8 +336,38 @@ h4{
 .info-section { 
     display: flex;
     flex-direction: column !important;
+    text-align: center !important;
 }
 .text-content{
     width: 90%;
+    text-align: center !important;
+}
+}
+@media (max-width: 1000px) {
+.map-container {
+    width: 110%;
+    height: auto;
+    padding-top: 85px;
+}
+}
+@media (max-width: 900px) {
+.map-container {
+    width: 111%;
+    height: auto;
+    padding-top: 85px;
+}
+}
+@media (max-width: 800px) {
+.map-container {
+    width: 113%;
+    height: auto;
+    padding-top: 85px;
+}
+}
+@media (max-width: 700px) {
+.map-container {
+    width: 120%;
+    height: auto;
+    padding-top: 85px;
 }
 }

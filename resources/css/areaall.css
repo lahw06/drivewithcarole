@@ -10,6 +10,9 @@ body {
     background-color: #ffffff;
     color: #333;
 }
+.call {
+    height: 250px;
+}
 
 /* Area Info Section */
 .area-info {

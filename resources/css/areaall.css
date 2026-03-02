@@ -55,9 +55,9 @@ h1{
     margin-bottom: 150px;
     margin-top: 80px;
     padding-bottom: 40px;
-    background-color: #fff;
-    box-shadow: none;
-    max-width: none;
+    background-color: #fff !important;
+    box-shadow: none !important;
+    max-width: none !important;
 }
 
 .text-content {

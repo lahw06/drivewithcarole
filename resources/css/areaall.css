@@ -265,9 +265,12 @@ h4::after {
     flex-direction: column;
     flex-wrap: wrap;
     margin-right: 30px;
-  
+    text-align: center !important;
     box-shadow: none;
     background: #fff;
+}
+.info-section p {
+    text-align: center !important;
 }
 .text-content {
     padding-right: 10px;

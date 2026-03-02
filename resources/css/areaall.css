@@ -334,4 +334,8 @@ h4{
 .info-grid {
         flex-direction: column !important;
     }
+.info-section { 
+    display: flex;
+    flex-direction: column !important;
+}
 }

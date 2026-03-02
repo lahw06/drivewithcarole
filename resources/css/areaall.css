@@ -206,18 +206,18 @@ h4::after {
 .tiptitle{
     text-align: center !important;
     display: block;
-    font-size: 2em  !important;
+    font-size: clamp(1.5em, 1.2em + 1.5vw, 2em);;
 }
 .tips {
     list-style-type: none;
     padding: 0;
     margin-top: 10px;
     padding-left: 40px;
-    font-size: 1.2em !important;/* Aligned with existing padding in the text section */
+    font-size: clamp(1.05em, 0.95em + 0.4vw, 1.2em);
 }
 
 .tips {
-    font-size: 1.05em;
+    font-size: clamp(0.95em, 0.9em + 0.3vw, 1.05em);
     color: #444;
     padding: 10px 0;
     border-bottom: 1px solid #ddd;

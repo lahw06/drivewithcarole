@@ -262,7 +262,7 @@ h4::after {
 .info-section {
     
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     flex-wrap: wrap;
     margin-right: 30px;
     text-align: center !important;

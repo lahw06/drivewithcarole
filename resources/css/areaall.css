@@ -300,3 +300,27 @@ h4::after {
     margin-bottom: 100px;
 }
 }
+@media (max-width: 1400px) {
+.map-container {
+    width: 40%;
+    height: auto;
+    width: 450px;
+    padding-top: 85px;
+}
+}
+@media (max-width: 1300px) {
+.map-container {
+    width: 40%;
+    height: auto;
+    width: 400px;
+    padding-top: 85px;
+}
+}
+@media (max-width: 1200px) {
+.map-container {
+    width: 40%;
+    height: auto;
+    width: 300px;
+    padding-top: 85px;
+}
+}

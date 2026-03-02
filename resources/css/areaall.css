@@ -26,6 +26,9 @@ body {
 h2{
     font-size: 2em;
 }
+h1{
+    font-size: clamp(1.2em, 1.4em + 0.6vw, 3.2em);
+}
 
  .area-info h2 {
         color: #333;

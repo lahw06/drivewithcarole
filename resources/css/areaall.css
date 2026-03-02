@@ -50,7 +50,7 @@ h1{
     text-align: left !important;
     display: flex;
     justify-content: space-around;
-    width:1600px;
+    width: 100%;
     padding: 40px 0;
     margin-bottom: 150px;
     margin-top: 80px;

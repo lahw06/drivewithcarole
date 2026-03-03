@@ -338,9 +338,17 @@ h4{
     flex-direction: column !important;
     text-align: center !important;
 }
-.text-content{
-    width: 90%;
+.info-section p { 
     text-align: center !important;
+}
+.text-content{
+    width: 100%;
+    text-align: center !important;
+}
+.map-container {
+    width: 108%;
+    height: auto;
+    padding-top: 85px;
 }
 }
 @media (max-width: 1000px) {

@@ -378,33 +378,6 @@
 
             
 
-        <script>
-            // Inline JavaScript for FAQ accordion functionality
-            document.addEventListener('DOMContentLoaded', () => {
-                const faqQuestions = document.querySelectorAll('h2[style*="cursor: pointer"]');
-    
-                faqQuestions.forEach(question => {
-                    question.addEventListener('click', () => {
-                        const answer = question.nextElementSibling;
-                        const currentMaxHeight = answer.style.maxHeight;
-    
-                        // Toggle between showing and hiding the answer
-                        if (currentMaxHeight === '0px' || currentMaxHeight === '') {
-                            answer.style.maxHeight = answer.scrollHeight + 'px';
-                        } else {
-                            answer.style.maxHeight = '0px';
-                        }
-    
-                        // Change + to - when active
-                        question.querySelector('span').textContent = currentMaxHeight === '0px' || currentMaxHeight === '' ? '-' : '+';
-                    });
-                });
-            });
-        </script>
-    <!-- JavaScript for FAQ accordion functionality -->
-    <script src="resources/javascript/faq.js"></script>
-
-
 
     <footer>
         <div class="footer-top">

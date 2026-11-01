@@ -52,6 +52,7 @@ body {
     border-bottom: 2px solid #e50914;
     display:inline-block;
     margin-bottom: 25px;
+    margin-top: 25px;
 }
 .social-link {
     display: flex;
